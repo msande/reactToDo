@@ -1,0 +1,29 @@
+﻿
+.todo-items {
+    .item {
+        position: relative;
+
+        input {
+            padding: 0;
+            margin: 0;
+            border: 0;
+            /*outline: 1px solid blue;*/
+            display: block;
+            width: calc(100% - 50px);
+
+            &:focus{
+                outline:0;
+            }
+        }
+    }
+
+    .item-delete {
+        width: 50px;
+        content: 'x';
+        position: absolute;
+        right: 0;
+        top: 0;
+        text-align: center;
+        cursor: pointer;
+    }
+}

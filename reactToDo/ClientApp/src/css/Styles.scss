@@ -1,0 +1,20 @@
+﻿
+.NavButtons {
+    button, a, a:link, a:visited, a:hover, a:active {
+        background: none;
+        margin: 0;
+        color: #c3c3c3;
+        text-decoration: none;
+        display: inline-block;
+        outline: 0;
+        border: 1px solid #c3c3c3;
+        padding: 1em;
+        margin: .5em;
+    }
+
+    button:hover,
+    a:hover {
+        border: 1px solid #b7b7b7;
+        color: #b7b7b7;
+    }
+}

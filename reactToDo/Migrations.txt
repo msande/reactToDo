@@ -1,0 +1,3 @@
+dotnet build
+dotnet ef migrations add ApplicationDbContextMigration
+dotnet ef database update

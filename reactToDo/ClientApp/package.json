@@ -1,0 +1,29 @@
+{
+    "name": "reacttodo",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "start": "rimraf ./build && react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test --env=jsdom",
+        "eject": "react-scripts eject"
+    },
+    "dependencies": {
+        "@material-ui/core": "^3.0.1",
+        "bootstrap": "^3.3.7",
+        "jwt-decode": "^2.2.0",
+        "react": "^16.4.2",
+        "react-bootstrap": "^0.32.1",
+        "react-device-detect": "^1.5.9",
+        "react-dom": "^16.4.2",
+        "react-router": "^4.3.1",
+        "react-router-bootstrap": "^0.24.4",
+        "react-router-dom": "^4.3.1",
+        "react-s-alert": "^1.4.1",
+        "react-scripts": "^1.1.4",
+        "rimraf": "^2.6.2"
+    },
+    "devDependencies": {
+        "uuid": "^3.3.2"
+    }
+}
